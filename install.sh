@@ -1,7 +1,8 @@
 echo "[...] Commencement de la post installation du pc";sleep 2
 echo "[...] Utilisation sur archlinux obligatoire";sleep 2
 sudo pacman -Sy
-sudo pacman zsh git curl vim cowsay --noconfirm
+sudo pacman zsh git curl vim --noconfirm
+sudo pacaur cowsay --noconfirm
 cd /tmp
 echo "[...] download the dotfile (now only zshrc) and install it";sleep 2
 git clone https://github.com/rogafe/dotfile_pc.git
